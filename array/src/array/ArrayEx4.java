@@ -3,7 +3,7 @@ package array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ArryEx4 {
+public class ArrayEx4 {
     public static void main(String[] args) {
         // 배열 : 한 번 생성하면 길이 변경 불가
 
@@ -34,6 +34,8 @@ public class ArryEx4 {
         }
         // int i = 0;
         // System.out.printf("%d\t", jumsu2[i]);
+
+        // 확인(화면출력)
         System.out.println(Arrays.toString(jumsu2));
 
         sc.close();
