@@ -48,7 +48,7 @@ public class Tv {
 
     // get 로 시작하는 메소드는 getter 메소드
     // set 로 시작하는 메소드는 setter 메소드
-
+    
     public int getChannel() {
         // return => channel 값을 보내겠다는 의미
         return channel;
