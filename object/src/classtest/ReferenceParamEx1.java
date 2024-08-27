@@ -13,7 +13,7 @@ public class ReferenceParamEx1 {
     }
 
     static void printArr(int[] arr) {
-        System.out.println("[");
+        System.out.print("[");
 
         for (int i : arr) {
             System.out.print(i + ",");

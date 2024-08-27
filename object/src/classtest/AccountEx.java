@@ -1,5 +1,7 @@
 package classtest;
 
+import java.util.Scanner;
+
 public class AccountEx {
     public static void main(String[] args) {
         Account account = new Account("123-1234-1234", "홍길동", 10000000);
@@ -23,5 +25,14 @@ public class AccountEx {
 
         }
 
+        printAccount(account);
+
     }
+
+    // 메소드 안 변수명은 상관없음
+    // L 26에서 보낸 값을 불러오는 주소
+    static void printAccount(Account acc) {
+
+    }
+
 }
