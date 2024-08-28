@@ -40,6 +40,10 @@ public class Account {
     // 은행계좌 + 체크카드
     // 상속으로 추가
 
+    public void setBalance(int balance) {
+        this.balance = balance;
+    }
+
     public String getAccountNo() {
         return accountNo;
     }
