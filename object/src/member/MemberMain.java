@@ -49,10 +49,8 @@ public class MemberMain {
                     break;
 
                 case 4:
-                    // member = util.removeMember(sc, members);
-                    // if (member == null) {
-                    // System.out.print("아이디가 삭제되었습니다.");
-                    // break;
+                    util.removeMember(sc, members);
+                    break;
 
                 case 5:
                     flag = false;

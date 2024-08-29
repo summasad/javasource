@@ -78,11 +78,14 @@ public class MemberConsoleUtil {
         System.out.println("삭제할 아이디 입력 >> ");
         String id = sc.nextLine();
 
-        // for (int i = 0; i < members.length; i++) {
-        // if (members[i] != null) {
-        // if (members[i].getId().equals(id));
-        // }
-        // }
+        for (int i = 0; i < members.length; i++) {
+            if (members[i] != null) {
+                if (members[i].getId().equals(id)) {
+                    members[i] = null;
+                    return;
+                }
+            }
+        }
 
     }
 }

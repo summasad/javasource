@@ -10,5 +10,6 @@ public class importEx {
         Scanner sc = new Scanner(System.in);
 
         LocalDate date = LocalDate.now();
+        sc.close();
     }
 }
