@@ -151,7 +151,7 @@ public class MyShop implements IShop {
         int i = 0, sum = 0;
         for (Product product : cart) {
             if (product != null) {
-                System.out.printf("[%d] $s (%d)\n", i++, product.getpName(), product.getPrice());
+                System.out.printf("[%d] $s (%s)\n", i++, product.getpName(), product.getPrice());
                 sum += product.getPrice();
             }
         }
