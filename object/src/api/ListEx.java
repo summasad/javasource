@@ -1,6 +1,7 @@
 package api;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -52,5 +53,11 @@ public class ListEx {
         list.sort(Comparator.reverseOrder()); // 내림차순
         System.out.println(list);
 
+        // 정렬방법 1. list.sort(Comparator.reverseOrder());
+        // 방법 2. 부모 메소드 소환 java.util.Collections : Collection과 관련된 유용한 메소드 제공해주는 클래스
+        Collections.sort(list, Comparator.naturalOrder()); // 오름차순
+        System.out.println(list);
+        Collections.sort(list, Comparator.reverseOrder()); // 내림차순
+        System.out.println(list);
     }
 }

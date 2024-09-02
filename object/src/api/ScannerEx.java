@@ -19,5 +19,7 @@ public class ScannerEx {
         System.out.print("input num2");
         int num2 = sc.nextInt();
         // sc.nextInt(); 이후에 남는 엔터 간단하게 처리하려면 모두 nextLine()하고 형변환
+        sc.close();
     }
+
 }

@@ -129,6 +129,7 @@ public class AccountEx2 {
         if (account != null) {
             account.withdraw(amount);
         }
+        sc.close();
     }
 
     static Account findAccount(String guestAcc) {
@@ -144,4 +145,5 @@ public class AccountEx2 {
         return null;
 
     }
+
 }

@@ -16,6 +16,7 @@ public class ScannerEx2 {
             // hello
             // hello 123
             String input = sc.nextLine();
+            sc.close();
 
             // 앞, 뒤 공백 제거
             input = input.trim(); // 공백 제거해서 다시 인풋에 담음
@@ -40,5 +41,6 @@ public class ScannerEx2 {
                 }
             }
         }
+
     }
 }

@@ -61,6 +61,7 @@ public class MemberMain {
                     break;
             }
         }
+        sc.close();
 
     }
 }

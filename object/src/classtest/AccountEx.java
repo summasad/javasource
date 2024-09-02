@@ -1,7 +1,5 @@
 package classtest;
 
-import java.util.Scanner;
-
 public class AccountEx {
     public static void main(String[] args) {
         Account account = new Account("123-1234-1234", "홍길동", 10000000);
