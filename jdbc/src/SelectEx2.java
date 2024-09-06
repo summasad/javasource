@@ -31,7 +31,7 @@ public class SelectEx2 {
             System.out.println("============================================================");
             // 6. 결과값이 담긴 rs에서 하나씩 조회, 행단위, 컬럼꺼내기
             while (rs.next()) {
-                // rs.next() => 행하나를 가져옴, 반복문으로 가져오기
+                // rs.next() => 행하나를 가져옴, 반복문으로 가져오기//
                 // number 타입 => getInt / varchar2 => getString / date => getDate
                 // ( ) 안에는 컬럼번호 or 컬럼명 가능
                 System.out.print(rs.getInt("empno") + "\t");

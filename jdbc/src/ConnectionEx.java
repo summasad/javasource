@@ -20,7 +20,7 @@ public class ConnectionEx {
             // xe : 오라클 서버의 인스턴스 이름(회사용 오라클은 olcl)
             String url = "jdbc:oracle:thin:@localhost:1521:xe"; // 정해진 문자열
             String user = "scott"; // scott 계정이름
-            String password = "TIGER";
+            String password = "TIGER"; // 대소문자 구분
 
             con = DriverManager.getConnection(url, user, password);
 

@@ -21,7 +21,7 @@ public class SelectEx3 {
             // 1. 드라이버 로드
             Class.forName("oracle.jdbc.OracleDriver");
 
-            // 6. 결과값이 담긴 rs에서 하나씩 조회, 행단위, 컬럼꺼내기
+            // 6. 결과값이 담긴 rs에서 하나씩 조회, 행단위, 컬럼꺼내기, 지정값
             if (rs.next()) {
                 // number 타입 => getInt / varchar2 => getString / date => getDate
                 // ( ) 안에는 컬럼번호 or 컬럼명 가능

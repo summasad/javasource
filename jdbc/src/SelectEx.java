@@ -29,7 +29,7 @@ public class SelectEx {
             // 6. 결과값이 담긴 rs에서 하나씩 조회, 행단위, 컬럼꺼내기
             if (rs.next()) {
                 // number 타입 => getInt / varchar2 => getString / date => getDate
-                // ( ) 안에는 컬럼번호 or 컬럼명 가능
+                // ( ) 안에는 컬럼번호 or 컬럼명 가능, 보통 컬럼명
                 System.out.println("empno : " + rs.getInt("empno"));
                 System.out.println("ename : " + rs.getString(2));
                 System.out.println("job : " + rs.getString(3));
