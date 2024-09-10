@@ -83,7 +83,7 @@ public class EmpDTO {
         return comm;
     }
 
-    public int setComm(int comm) {
+    public void setComm(int comm) {
         this.comm = comm;
     }
 
