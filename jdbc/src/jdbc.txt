@@ -13,4 +13,6 @@ JDBC(Java Database Connetivity) : 자바와 데이터베이스의 상호 연동�
 
 - ~~~DAO(ex- EmpDAO, DeptDAO) 클래스 : DB CRUD 작업과 관련된 메소드 작성
 - ~~~DTO(ex- EmpDTO, DeptDTO) 클래스 : 클래스들끼리 데이터를 주고 받을 때 사용하는 클래스
-   
+
+DAO 에서 조회한 SELECT 정보 DTO or List<~DTO> 에 담기 (pk 아니면 모두 list)
+Service : DAO 호출, 메인에 넘기는 징검다리, 개발의 효율성, 메소드 작성   
